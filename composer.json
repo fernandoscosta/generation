@@ -1,0 +1,39 @@
+{
+    "name": "nandosc/nandosc",
+    "description": "Stp generator for PHP.",
+    "license": "MIT",
+    "homepage": "http://github.com/fernandoscosta/nandosc",
+    "require": {
+        "php": "^8.2",
+        "ext-iconv": "*"
+    },
+    "authors": [
+        {
+            "name": "Fernando Costa",
+            "email": "fernandocostasud@gmail.com",
+            "homepage": "https://github.com/fernandoscosta/nandosc",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nandosc\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.4",
+        "pestphp/pest": "^2.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "ocramius/package-versions": true,
+            "pestphp/pest-plugin": true
+        }
+    },
+    "archive": {
+        "exclude": [
+            "/test",
+            "/phpunit.xml.dist"
+        ]
+    }
+}

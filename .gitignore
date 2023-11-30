@@ -1,0 +1,6 @@
+/.phpunit.cache
+/vendor
+.phpunit.result.cache
+/.husky
+/.github
+/.vscode
