@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Nandosc;
 
-final class generation
+final class Generation
 {
 
     /**
