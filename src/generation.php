@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Nandosc\nandosc;
+namespace Nandosc;
 
-final class nandosc
+final class generation
 {
 
     /**
