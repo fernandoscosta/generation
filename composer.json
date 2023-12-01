@@ -3,10 +3,6 @@
     "description": "Stp generator for PHP.",
     "license": "MIT",
     "homepage": "http://github.com/fernandoscosta/nandosc",
-    "require": {
-        "php": "^8.2",
-        "ext-iconv": "*"
-    },
     "authors": [
         {
             "name": "Fernando Costa",
@@ -15,6 +11,16 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/fernandoscosta/nandosc"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-iconv": "*"
+    },
     "autoload": {
         "psr-4": {
             "Nandosc\\": "src/"
